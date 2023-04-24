@@ -24,7 +24,7 @@ export default function Search() {
             className="p-3 flex flex-col bg-white max-w-[300px] rounded-lg shadow-md"
           >
             <div>
-              <img src={item.img} alt="food photo" className="rounded-lg" />
+              <img src={item.img} alt="food" className="rounded-lg" />
             </div>
 
             <h1 className="font-bold py-1">{item.name}</h1>

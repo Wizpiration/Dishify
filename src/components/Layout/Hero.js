@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import heroImage from "./../Assets/HeroImage.png";
 import CustomButton from "../UI/CustomButton";
 import { AiOutlineArrowRight } from "react-icons/ai";

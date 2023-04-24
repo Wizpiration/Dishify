@@ -1,5 +1,3 @@
-import { AiFillStar } from "react-icons/ai";
-
 const slides = [
   {
     id: 1,

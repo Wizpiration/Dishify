@@ -1,9 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../context/Context";
-import CustomButton from "../UI/CustomButton";
 
 import meal from "./mealData";
-import { type } from "@testing-library/user-event/dist/type";
 
 export default function Meals(props) {
   const [meals, setMeals] = useState(meal);
@@ -21,7 +19,7 @@ export default function Meals(props) {
           className="p-3 flex flex-col bg-white max-w-[300px] rounded-lg shadow-md"
         >
           <div>
-            <img src={item.img} alt="food photo" className="rounded-lg" />
+            <img src={item.img} alt="food" className="rounded-lg" />
           </div>
 
           <h1 className="font-bold py-1">{item.name}</h1>
